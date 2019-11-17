@@ -1,0 +1,5 @@
+vagrant@ubuntu-xenial:~/workspace$ ruby test.rb
+Traceback (most recent call last):
+        2: from test.rb:3:in `<main>'
+        1: from test.rb:4:in `<module:WEBrick>'
+test.rb:5:in `<module:HTTPServlet>': uninitialized constant WEBrick::HTTPServlet::FileHandler (NameError)
